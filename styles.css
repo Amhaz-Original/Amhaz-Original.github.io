@@ -271,3 +271,21 @@ footer span {
         width: 45%; /* Two columns for tablets */
     }
 }
+
+/* Style for the logo */
+#logo-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Make sure it's always on top */
+}
+
+#logo {
+    width: 100px; /* Adjust the size of the logo as necessary */
+    height: auto; /* Keeps the aspect ratio of the logo */
+}
+
+/* Ensure other content doesn't overlap the logo */
+body {
+    padding-left: 120px; /* Adjust depending on the logo size */
+}
