@@ -46,7 +46,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    position: relative;
 }
 
 #category-select, #search-bar, #search-btn {
@@ -60,26 +59,8 @@ h1 {
 
 #category-select {
     width: 150px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     cursor: pointer;
-    position: relative;
-}
-
-#category-select::-ms-expand {
-    display: none;
-}
-
-#category-select::after {
-    content: '\25BC';
-    font-size: 12px;
-    color: #f4f4f4;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
 }
 
 #search-bar {
@@ -98,10 +79,9 @@ h1 {
 
 main {
     flex: 1;
-    margin-top: 10px; /* Adjust this value based on your needs */
-    padding: 0; /* Ensure there’s no padding */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -110,8 +90,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 80%;
-    margin-top: 0; /* Set to 0 to remove extra space */
-    padding: 0; /* Ensure no padding is added */
+    margin-top: 0;
+    padding: 0;
 }
 
 .product-item {
@@ -162,8 +142,6 @@ main {
     color: #ff4c4c;
     font-size: 1.5rem;
     margin-top: 1px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
     text-align: center;
 }
 
@@ -175,7 +153,6 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
-    left: 0;
 }
 
 footer h3 {
@@ -235,40 +212,40 @@ footer span {
 
     .search-controls {
         flex-direction: column;
-        gap: 10px; /* Vertical gap between elements */
-        width: 90%; /* Fit within mobile screen */
+        gap: 10px;
+        width: 90%;
     }
 
     #product-list {
-        width: 100%; /* Use full width */
+        width: 100%;
         justify-content: center;
     }
 
     .product-item {
-        width: 90%; /* Make products full width */
+        width: 90%;
         margin: 10px 0;
     }
 
     footer .footer-info {
-        flex-direction: column; /* Stack footer items vertically */
+        flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 0;
     }
 
     .footer-info div {
-        margin: 5px 0; /* Smaller margin for mobile */
+        margin: 5px 0;
     }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     #search-bar {
-        width: 300px; /* Smaller width on tablets */
+        width: 300px;
     }
 
     .product-item {
-        width: 45%; /* Two columns for tablets */
+        width: 45%;
     }
 }
 
@@ -277,15 +254,10 @@ footer span {
     position: fixed;
     top: 10px;
     left: 10px;
-    z-index: 1000; /* Make sure it's always on top */
+    z-index: 1000;
 }
 
 #logo {
-    width: 100px; /* Adjust the size of the logo as necessary */
-    height: auto; /* Keeps the aspect ratio of the logo */
-}
-
-/* Ensure other content doesn't overlap the logo */
-body {
-    padding-left: 120px; /* Adjust depending on the logo size */
+    width: 100px;
+    height: auto;
 }
