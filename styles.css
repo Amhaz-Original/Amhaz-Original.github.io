@@ -174,8 +174,22 @@ footer h3 {
 }
 
 .footer-info div {
+    display: flex;
+    align-items: center; /* This will vertically align the social icons */
     margin: 0 10px;
 }
+
+.social-icon {
+    width: 25px; /* Adjust size as needed */
+    height: 25px;
+    margin-left: 100px; /* Space between number and icon */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
 
 footer a {
     color: #ff4c4c;
@@ -261,3 +275,5 @@ footer span {
     width: 100px;
     height: auto;
 }
+
+
