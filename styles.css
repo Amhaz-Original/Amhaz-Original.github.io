@@ -114,7 +114,6 @@ main {
     padding: 0; /* Ensure no padding is added */
 }
 
-
 .product-item {
     background-color: #292929;
     border: 1px solid #444;
@@ -217,4 +216,58 @@ footer p {
 
 footer span {
     font-weight: bold;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #category-select, #search-bar, #search-btn, #clear-btn {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #search-bar {
+        width: 100%; /* Full width for mobile */
+    }
+
+    .search-controls {
+        flex-direction: column;
+        gap: 10px; /* Vertical gap between elements */
+        width: 90%; /* Fit within mobile screen */
+    }
+
+    #product-list {
+        width: 100%; /* Use full width */
+        justify-content: center;
+    }
+
+    .product-item {
+        width: 90%; /* Make products full width */
+        margin: 10px 0;
+    }
+
+    footer .footer-info {
+        flex-direction: column; /* Stack footer items vertically */
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer-info div {
+        margin: 5px 0; /* Smaller margin for mobile */
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #search-bar {
+        width: 300px; /* Smaller width on tablets */
+    }
+
+    .product-item {
+        width: 45%; /* Two columns for tablets */
+    }
 }
