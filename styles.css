@@ -212,35 +212,33 @@ footer span {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
 
-    /* Adjust the search controls for better layout */
+    /* Hide the logo on mobile */
+    #logo-container {
+        display: none;
+    }
+
+    /* Stack the search bar and category select vertically */
     .search-controls {
         flex-direction: column;
         gap: 10px;
         width: 90%; /* Full width for mobile */
     }
 
-    /* Resize and reposition the logo */
-    #logo-container {
-        width: 100%; /* Full width for mobile */
-        text-align: center;
-    }
-
-    #logo {
-        width: 80px; /* Reduce the logo size */
-        height: auto;
-        margin-bottom: 10px; /* Add margin below the logo */
-    }
-
-    /* Adjust the search bar and buttons for mobile */
-    #category-select, #search-bar, #search-btn, #clear-btn {
-        font-size: 1rem;
-        padding: 10px;
-        width: 100%; /* Full width for mobile */
-        margin-bottom: 10px; /* Add space between elements */
-    }
-
+    /* Full width for the search bar */
     #search-bar {
         width: 100%; /* Full width for mobile */
+    }
+
+    /* Move the category select button below the search bar */
+    #category-select {
+        width: 100%; /* Full width for mobile */
+        margin-top: 10px; /* Add space between the search bar and the category select */
+    }
+
+    #search-btn, #clear-btn {
+        width: 100%; /* Full width for buttons */
+        font-size: 1rem;
+        padding: 10px;
     }
 
     /* Adjust the product list for mobile */
