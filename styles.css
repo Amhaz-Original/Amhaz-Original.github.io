@@ -211,44 +211,49 @@ footer span {
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 1.5rem;
+
+    /* Adjust the search controls for better layout */
+    .search-controls {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%; /* Full width for mobile */
     }
 
+    /* Resize and reposition the logo */
+    #logo-container {
+        width: 100%; /* Full width for mobile */
+        text-align: center;
+    }
+
+    #logo {
+        width: 80px; /* Reduce the logo size */
+        height: auto;
+        margin-bottom: 10px; /* Add margin below the logo */
+    }
+
+    /* Adjust the search bar and buttons for mobile */
     #category-select, #search-bar, #search-btn, #clear-btn {
         font-size: 1rem;
-        padding: 8px;
+        padding: 10px;
+        width: 100%; /* Full width for mobile */
+        margin-bottom: 10px; /* Add space between elements */
     }
 
     #search-bar {
         width: 100%; /* Full width for mobile */
     }
 
-    .search-controls {
-        flex-direction: column;
-        gap: 10px;
-        width: 90%;
-    }
-
-    #product-list {
-        width: 100%;
-        justify-content: center;
-    }
-
+    /* Adjust the product list for mobile */
     .product-item {
-        width: 90%;
-        margin: 10px 0;
+        width: 90%; /* Take up more space on mobile */
+        margin: 10px 0; /* More vertical space between products */
     }
 
+    /* Ensure footer stays aligned */
     footer .footer-info {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin: 0;
-    }
-
-    .footer-info div {
-        margin: 5px 0;
     }
 }
 
