@@ -1,0 +1,682 @@
+[
+    {
+        "Product": "Al 5 1 28GBX4R",
+        "Price": "130$"
+    },
+    {
+        "Product": "Al 5 128GBX6R",
+        "Price": "137$"
+    },
+    {
+        "Product": "Al 5 256GBX8R",
+        "Price": "170$"
+    },
+    {
+        "Product": "S24 Ultra 256GBX12R",
+        "Price": "1020$"
+    },
+    {
+        "Product": "S24 Ultra 512GBX12R",
+        "Price": "1170$"
+    },
+    {
+        "Product": "Z Fold 6 256GBX12R",
+        "Price": "1400$"
+    },
+    {
+        "Product": "Z Fold 6 512GBX12R",
+        "Price": "1530$"
+    },
+    {
+        "Product": "Z Flip 6 256B\\12R",
+        "Price": "830$"
+    },
+    {
+        "Product": "SAMSUNG Tablet",
+        "Price": "Price$"
+    },
+    {
+        "Product": "A9 XI10 64GBX4R Wifi 8.7\"",
+        "Price": "97$"
+    },
+    {
+        "Product": "A9 XI10 128GBX8R Wifi 8.7\u201d",
+        "Price": "120$"
+    },
+    {
+        "Product": "A9+ X210 64GBX4R Wifi 11\"",
+        "Price": "145$"
+    },
+    {
+        "Product": "A9+ X210 128GBX8R Wifi 11\"",
+        "Price": "190$"
+    },
+    {
+        "Product": "S9FE X510 128\\6R Wifi 10.9\"",
+        "Price": "310$"
+    },
+    {
+        "Product": "S9FE X510 256X8R Wifi 10.9\"",
+        "Price": "325$"
+    },
+    {
+        "Product": "S6 Lite P613 1 28X4R Wifi 10.4\"",
+        "Price": "250$"
+    },
+    {
+        "Product": "S9 FE+ X610 128GBX8R Wifi 12.4",
+        "Price": "390$"
+    },
+    {
+        "Product": "S9 FE+ X610 256GBX1 2R Wifi 12.",
+        "Price": "425$"
+    },
+    {
+        "Product": "S9X710 128GB Wifi 11\u201d",
+        "Price": "480$"
+    },
+    {
+        "Product": "S9+ X 810 256GBX12R Wifi 12.4\"",
+        "Price": "620$"
+    },
+    {
+        "Product": "S9+ X 810 512GBX12R Wifi 12.4\"",
+        "Price": "670$"
+    },
+    {
+        "Product": "S9Ultra X910 256GBX12R W 14.6\"",
+        "Price": "800$"
+    },
+    {
+        "Product": "S9Ultra X910 512GBX1 2R W 14.6\"",
+        "Price": "850$"
+    },
+    {
+        "Product": "S9Ultra X910 1 TerraXl 6R W 14.6\"",
+        "Price": "1150$"
+    },
+    {
+        "Product": "S9Ultra X916 256GBX12R 5G 14.6",
+        "Price": "1000$"
+    },
+    {
+        "Product": "S9Ultra X91 6 51 2GBX1 2R 5G 1 4.6",
+        "Price": "1150$"
+    },
+    {
+        "Product": "Sony",
+        "Price": "Price$"
+    },
+    {
+        "Product": "PLAY STATION 5 Portable",
+        "Price": "200$"
+    },
+    {
+        "Product": "PLAY STATION 5 Controller",
+        "Price": "60$"
+    },
+    {
+        "Product": "PLAY STATION 5 Slim 1 TERRA",
+        "Price": "500$"
+    },
+    {
+        "Product": "Air Pods Max",
+        "Price": "450$"
+    },
+    {
+        "Product": "Ipad",
+        "Price": "Price$"
+    },
+    {
+        "Product": "iPad Mini 6 64GB Wifi",
+        "Price": "400$"
+    },
+    {
+        "Product": "iPad 9 64GB 10.2\" Wifi",
+        "Price": "265$"
+    },
+    {
+        "Product": "iPad 9 256GB 10.2\" Wifi",
+        "Price": "350$"
+    },
+    {
+        "Product": "iPad 1<.) 64GB 10 9\" Wifi",
+        "Price": "325$"
+    },
+    {
+        "Product": "iPad 1 0 256GB 10.9\" Wifi",
+        "Price": "450$"
+    },
+    {
+        "Product": "iPad Air 5 64GB 10.9\" Wifi",
+        "Price": "460$"
+    },
+    {
+        "Product": "Android Accessories",
+        "Price": "nan$"
+    },
+    {
+        "Product": "Galaxv Watch 6 40mm",
+        "Price": "135$"
+    },
+    {
+        "Product": "Galaxy Watch 6 44mm",
+        "Price": "145$"
+    },
+    {
+        "Product": "Galaxy Watch 6 Classic 43mm",
+        "Price": "185$"
+    },
+    {
+        "Product": "Galaxy Watch 6 Classic 47mm",
+        "Price": "205$"
+    },
+    {
+        "Product": "Galaxy Watch 7 40mm",
+        "Price": "215$"
+    },
+    {
+        "Product": "Galaxy Watch 7 44mm",
+        "Price": "235$"
+    },
+    {
+        "Product": "Galaxy Watch 7 Ultra 47mm",
+        "Price": "460$"
+    },
+    {
+        "Product": "Gear Buds FE",
+        "Price": "45$"
+    },
+    {
+        "Product": "Gear Buds 2 Pro",
+        "Price": "88$"
+    },
+    {
+        "Product": "Gear Buds 3",
+        "Price": "115$"
+    },
+    {
+        "Product": "Gear Buds 3 Pro White",
+        "Price": "160$"
+    },
+    {
+        "Product": "Gear Buds 3 Pro Black",
+        "Price": "200$"
+    },
+    {
+        "Product": "GT 2 42\u201d & 46\u201d Mix Huawei",
+        "Price": "115$"
+    },
+    {
+        "Product": "GT Watch Buds Huawei",
+        "Price": "270$"
+    },
+    {
+        "Product": "GT3 Huawei",
+        "Price": "145$"
+    },
+    {
+        "Product": "Huawei Fit",
+        "Price": "70$"
+    },
+    {
+        "Product": "Watch HD MLY-B10 Huawei",
+        "Price": "330$"
+    },
+    {
+        "Product": "Baud 8 Huawei",
+        "Price": "50$"
+    },
+    {
+        "Product": "Tag Smart",
+        "Price": "20$"
+    },
+    {
+        "Product": "Tecno",
+        "Price": "Price$"
+    },
+    {
+        "Product": "Spark Go 2024 64GBX3R",
+        "Price": "81$"
+    },
+    {
+        "Product": "Spark Go 2024 64GBX4R",
+        "Price": "86$"
+    },
+    {
+        "Product": "Spark Go 2024 128GB4R",
+        "Price": "93$"
+    },
+    {
+        "Product": "Spark 20C 256GBX4R",
+        "Price": "109$"
+    },
+    {
+        "Product": "Spark 20C 128GBX8R",
+        "Price": "119$"
+    },
+    {
+        "Product": "Spark 20 256GB 8R",
+        "Price": "130$"
+    },
+    {
+        "Product": "Spark 20 Pro 256GB\\8R",
+        "Price": "166$"
+    },
+    {
+        "Product": "Spark 20 Pro 256GBX12R",
+        "Price": "188$"
+    },
+    {
+        "Product": "Spark 20 Pro Plus 256GBX8R",
+        "Price": "210$"
+    },
+    {
+        "Product": "Pova 6 256GX12R",
+        "Price": "239$"
+    },
+    {
+        "Product": "Pova 6 256GX8R",
+        "Price": "198$"
+    },
+    {
+        "Product": "Pova 6 Pro 256GX12R",
+        "Price": "260$"
+    },
+    {
+        "Product": "Cam on 20 Pro 4G 256GX8R",
+        "Price": "185$"
+    },
+    {
+        "Product": "Cam on 20 Pro Premier 512GX8R",
+        "Price": "285$"
+    },
+    {
+        "Product": "Cam on 30 512GX8R 5G",
+        "Price": "289$"
+    },
+    {
+        "Product": "Cam on 30 512GX12R 5G",
+        "Price": "319$"
+    },
+    {
+        "Product": "Cam on 30 S Pro 256GX8R",
+        "Price": "239$"
+    },
+    {
+        "Product": "Cam on 30 S Pro Premier 512GBX12R",
+        "Price": "499$"
+    },
+    {
+        "Product": "Ipad",
+        "Price": "Price$"
+    },
+    {
+        "Product": "iPad Pro M2 11\" 1 Terra 5G",
+        "Price": "1250$"
+    },
+    {
+        "Product": "iPad Pro M2 11 \u201d 2 Terra 5G",
+        "Price": "1400$"
+    },
+    {
+        "Product": "iPad Pro M2 12.9\u201d 1 Terra Wifi",
+        "Price": "1350$"
+    },
+    {
+        "Product": "iPad Pro M2 12.9\u201d 512GB 5G",
+        "Price": "1250$"
+    },
+    {
+        "Product": "iPad Pro M2 12.9\" 1 Terra 5G",
+        "Price": "1400$"
+    },
+    {
+        "Product": "iPad Pro M2 12.9\" 2 Terra 5G",
+        "Price": "1500$"
+    },
+    {
+        "Product": "iPad Pro M4 11\" 256GB Wifi",
+        "Price": "900$"
+    },
+    {
+        "Product": "iPad Pro M4 11\" 512GB Wifi",
+        "Price": "1080$"
+    },
+    {
+        "Product": "iPad Pro M4 11\" 256GB 5G",
+        "Price": "1300$"
+    },
+    {
+        "Product": "iPad Pro M4 11\" 512GB 5G",
+        "Price": "1400$"
+    },
+    {
+        "Product": "iPad Pro M4 11 \u201d 1 Terra 5G",
+        "Price": "1650$"
+    },
+    {
+        "Product": "iPad Pro M4 13\u201d 256GB Wifi",
+        "Price": "1140$"
+    },
+    {
+        "Product": "iPad Pro M4 13\" 512GB Wifi",
+        "Price": "1280$"
+    },
+    {
+        "Product": "iPad ProM4 13\" 1 Terra Wifi",
+        "Price": "1600$"
+    },
+    {
+        "Product": "iPad Pro M4 13\" 2 Terra Wifi",
+        "Price": "1800$"
+    },
+    {
+        "Product": "iPad Pro M4 13\" 256GB 5G",
+        "Price": "1550$"
+    },
+    {
+        "Product": "iPad Pro M4 13\" 512GB 5G",
+        "Price": "1850$"
+    },
+    {
+        "Product": "iPad Pro M4 13\u201d 1 Terra 5G",
+        "Price": "2100$"
+    },
+    {
+        "Product": "iPad Pro M4 13\u201d 2 Terra 5G",
+        "Price": "2300$"
+    },
+    {
+        "Product": "iPad Air M2 11\" 128GB Wifi",
+        "Price": "600$"
+    },
+    {
+        "Product": "iPad Air M2 11 \u201d 256GB Wifi",
+        "Price": "700$"
+    },
+    {
+        "Product": "iPad Air M2 11\" 1 28GB 5G",
+        "Price": "900$"
+    },
+    {
+        "Product": "iPad Air M2 11 \" 256GB 5G",
+        "Price": "1050$"
+    },
+    {
+        "Product": "iPad Air M2 13\" 128GB Wifi",
+        "Price": "700$"
+    },
+    {
+        "Product": "iPad Air M2 13\" 256GB Wifi",
+        "Price": "810$"
+    },
+    {
+        "Product": "iPad Air M2 13\u201d 256GB 5G",
+        "Price": "1100$"
+    },
+    {
+        "Product": "iPhone",
+        "Price": "nan$"
+    },
+    {
+        "Product": "iPhone SE 64GB",
+        "Price": "360$"
+    },
+    {
+        "Product": "iPhone 13 265GB",
+        "Price": "610$"
+    },
+    {
+        "Product": "iPhone 14 128GB",
+        "Price": "700$"
+    },
+    {
+        "Product": "iPhone 15 128GB Mix",
+        "Price": "810$"
+    },
+    {
+        "Product": "iPhone 15 256GB Mix",
+        "Price": "950$"
+    },
+    {
+        "Product": "iPhone 15 512GB Mix",
+        "Price": "1030$"
+    },
+    {
+        "Product": "iPhone 15 Pro 128GB Mix",
+        "Price": "1070$"
+    },
+    {
+        "Product": "iPhone 15 Pro 256GB Mix",
+        "Price": "1180$"
+    },
+    {
+        "Product": "iPhone 15 Pro 512GB Mix",
+        "Price": "1420$"
+    },
+    {
+        "Product": "iPhone 15 Pro 1 Terra Mix",
+        "Price": "1530$"
+    },
+    {
+        "Product": "iPhone 15 ProMax 256GB Mix",
+        "Price": "1300$"
+    },
+    {
+        "Product": "iPhone 15 ProMax 512GB Mix",
+        "Price": "1530$"
+    },
+    {
+        "Product": "iPhone 15 ProMax 1 Terra Mix",
+        "Price": "1660$"
+    },
+    {
+        "Product": "iPhone 15 Plus 128GB Mix",
+        "Price": "950$"
+    },
+    {
+        "Product": "iPhone 15 Plus 256GB Mix",
+        "Price": "1090$"
+    },
+    {
+        "Product": "iPhone 15 Plus 512 Mix",
+        "Price": "1180$"
+    },
+    {
+        "Product": "Watch Series 6 SE 40mm",
+        "Price": "165$"
+    },
+    {
+        "Product": "Watch Series 6 SE 2 40mm",
+        "Price": "190$"
+    },
+    {
+        "Product": "Watch Series 6 SE 2 44mm",
+        "Price": "220$"
+    },
+    {
+        "Product": "Watch S9 41mm",
+        "Price": "300$"
+    },
+    {
+        "Product": "Watch S9 45mm",
+        "Price": "330$"
+    },
+    {
+        "Product": "Watch S9 Ultra 2 49mm",
+        "Price": "690$"
+    },
+    {
+        "Product": "Apple Tv 4K 64Gb 2022",
+        "Price": "140$"
+    },
+    {
+        "Product": "Apple Tv 4K 128Gb 2022",
+        "Price": "160$"
+    },
+    {
+        "Product": "Pencil 1 New",
+        "Price": "85$"
+    },
+    {
+        "Product": "Pencil 2",
+        "Price": "90$"
+    },
+    {
+        "Product": "Pencil 3",
+        "Price": "75$"
+    },
+    {
+        "Product": "Pencil Pro",
+        "Price": "115$"
+    },
+    {
+        "Product": "Keyboard 12.9 inch Magic 2021",
+        "Price": "240$"
+    },
+    {
+        "Product": "Keyboard 11 inch Magic 2021 Mix",
+        "Price": "220$"
+    },
+    {
+        "Product": "Keyboard 10 inch Magic",
+        "Price": "220$"
+    },
+    {
+        "Product": "Keyboard 11 inch Magic M4",
+        "Price": "280$"
+    },
+    {
+        "Product": "Keyboard 13 inch Magic M4",
+        "Price": "340$"
+    },
+    {
+        "Product": "Airpods 2 New",
+        "Price": "90$"
+    },
+    {
+        "Product": "AirPods 3 New",
+        "Price": "11?$"
+    },
+    {
+        "Product": "Air Pods Pro 2 Type C",
+        "Price": "190$"
+    },
+    {
+        "Product": "Air Tag",
+        "Price": "22$"
+    },
+    {
+        "Product": "Magic Mouse 2 MIX",
+        "Price": "90$"
+    },
+    {
+        "Product": "Mag Safe",
+        "Price": "no$"
+    },
+    {
+        "Product": "Apple Laptops",
+        "Price": "Price$"
+    },
+    {
+        "Product": "MacBook Air 256GBX8R 13.6 M2",
+        "Price": "840$"
+    },
+    {
+        "Product": "MacBook Air 512GBX8R 13.6 M2",
+        "Price": "1000$"
+    },
+    {
+        "Product": "MacBook Air 256GBX8R 13.3\u201d M1",
+        "Price": "670$"
+    },
+    {
+        "Product": "MacBook Air 256GBX8R 15\u201d M2",
+        "Price": "1030$"
+    },
+    {
+        "Product": "MacBook Air 512GBX8R 15\u201d M2",
+        "Price": "1200$"
+    },
+    {
+        "Product": "MacBk ProMaxChip 512GBX32R 16\u201d",
+        "Price": "2000$"
+    },
+    {
+        "Product": "MacBkPro 16\" 2Terra M2ProChip 32R",
+        "Price": "3300$"
+    },
+    {
+        "Product": "MacBook Pro 16\u201d M2 2Terra 64R",
+        "Price": "3800$"
+    },
+    {
+        "Product": "bnae Ml 512GBX8R",
+        "Price": "1350$"
+    },
+    {
+        "Product": "Imac M3 512GBX8R",
+        "Price": "1700$"
+    },
+    {
+        "Product": "MacBook Air 256GB 15\" M3 8R",
+        "Price": "1120$"
+    },
+    {
+        "Product": "MacBook Air 512GB 15\u201d M3 8R",
+        "Price": "1300$"
+    },
+    {
+        "Product": "MacBook Air 256GB 13.6\" M3 8R",
+        "Price": "910$"
+    },
+    {
+        "Product": "MacBook Air 512GB 13.6\u201d M3 8R",
+        "Price": "1110$"
+    },
+    {
+        "Product": "Mac Book Pro 16\u201d M3 512GBX18R",
+        "Price": "2200$"
+    },
+    {
+        "Product": "Mac Book Pro 16\u201d M3 1 TerraXl 8R",
+        "Price": "2650$"
+    },
+    {
+        "Product": "Mac Book Pro 16\u201d M3 lTerra\\36R",
+        "Price": "3030$"
+    },
+    {
+        "Product": "Mac Book Pro 16\u201d M3 2 Terra\\96R",
+        "Price": "5800$"
+    },
+    {
+        "Product": "Mac Book Pro 16\u201d M3 2Terra\\64R",
+        "Price": "5500$"
+    },
+    {
+        "Product": "Mac Book Pro 14\u201d M3 512GBX8R",
+        "Price": "1420$"
+    },
+    {
+        "Product": "Mac Book Pro 14\u201d M3 1 TerraXSR",
+        "Price": "1520$"
+    },
+    {
+        "Product": "Mac Book Pro Max 14\u201d M3 lTerraX36R",
+        "Price": "3050$"
+    },
+    {
+        "Product": "Mac Book Pro 14\" M3 512GB\\18R",
+        "Price": "1700$"
+    },
+    {
+        "Product": "Mac Book Pro 14\u201d M3 lTerra\\18R",
+        "Price": "2100$"
+    },
+    {
+        "Product": "Mac Book Pro 14\u201d M3 2 Terra\\64R",
+        "Price": "5500$"
+    }
+]
