@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="img/favicon.png" type="image/png"> <!-- Add this line -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -13,21 +13,21 @@
         <div id="logo-container">
             <img src="img/logo.png" alt="Logo" id="logo">
         </div>
-        <div class="search-controls">
-            <!-- Search bar at the top -->
-            <input type="text" id="search-bar" placeholder="Search for products...">
-
-            <!-- Category and Search buttons in a flex container -->
-            <div class="button-row">
-                <select id="category-select">
-                    <option value="new">New Products</option>
-                    <option value="open">Open Box</option>
-                </select>
-                <button id="search-btn">Search</button>
+        <div id="search-container">
+            <h1>Amhaz Original Products</h1>
+            <div class="search-controls">
+                <input type="text" id="search-bar" placeholder="Search for products...">
+                <div class="button-row">
+                    <select id="category-select">
+                        <option value="new">New Products</option>
+                        <option value="open">Open Box</option>
+                    </select>
+                    <button id="search-btn">Search</button>
+                </div>
+                <button id="clear-btn">Clear</button>
             </div>
         </div>
     </header>
-
 
     <main>
         <div id="no-results-message">No results found</div>
@@ -56,8 +56,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <script src="script.js"></script>
 </body>
