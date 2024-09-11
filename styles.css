@@ -273,7 +273,7 @@ footer span {
         flex-direction: auto;
         align-items: left;
         width: auto;
-        font-size: 0.66rem;
+        font-size: 0.55rem;
     }
     footer h3 {
     font-size: 0.83rem;
@@ -283,17 +283,17 @@ footer span {
     footer a {
         color: #ff4c4c;
         text-decoration: none;
-        font-size: 0.66rem;
+        font-size: 0.55rem;
     }
 
         footer p {
         text-decoration: none;
-        font-size: 0.66rem;
+        font-size: 0.55rem;
     }
 
     footer span{
         font-weight: bold;
-        font-size: 0.66rem;
+        font-size: 0.55rem;
     }
 
 }
