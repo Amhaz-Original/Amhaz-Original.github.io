@@ -217,36 +217,41 @@ footer span {
         display: none;
     }
 
-    /* Stack the search controls in a column with proper spacing */
-    .search-controls {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%; /* Full width for mobile */
-        justify-content: flex-start; /* Keep it aligned to the top */
-        padding: 10px; /* Add some padding around the controls */
-    }
-
-    /* Full width for the category select */
-    #category-select {
-        width: 100%;
-        padding: 10px;
-    }
-
-    /* Full width for the search bar */
+    /* Search bar should take full width */
     #search-bar {
         width: 100%;
         padding: 10px;
     }
 
-    /* Full width for the search button */
-    #search-btn {
+    /* Use flex to place the category select and search button side by side */
+    .search-controls {
+        display: flex;
+        flex-direction: column; /* Stack the elements vertically */
+        gap: 10px;
         width: 100%;
-        padding: 10px;
-        margin-top: 10px; /* Add some space between the search bar and button */
+        padding: 10px; /* Add some padding around the controls */
     }
 
-    /* Adjust the clear button (if necessary) */
+    /* Flex container to hold category select and search button side by side */
+    .button-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; /* Full width for the container */
+    }
+
+    /* Category select styling */
+    #category-select {
+        width: 48%; /* 48% to make space for the search button next to it */
+        padding: 10px;
+    }
+
+    /* Search button styling */
+    #search-btn {
+        width: 48%; /* 48% to align with the category select button */
+        padding: 10px;
+    }
+
+    /* Adjust clear button if necessary */
     #clear-btn {
         width: 100%;
         padding: 10px;

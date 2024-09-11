@@ -13,16 +13,17 @@
         <div id="logo-container">
             <img src="img/logo.png" alt="Logo" id="logo">
         </div>
-        <div id="search-container">
-            <h1>Amhaz Original Products</h1>
-            <div class="search-controls">
+        <div class="search-controls">
+            <!-- Search bar at the top -->
+            <input type="text" id="search-bar" placeholder="Search for products...">
+
+            <!-- Category and Search buttons in a flex container -->
+            <div class="button-row">
                 <select id="category-select">
                     <option value="new">New Products</option>
                     <option value="open">Open Box</option>
                 </select>
-                <input type="text" id="search-bar" placeholder="Search for products...">
                 <button id="search-btn">Search</button>
-                <button id="clear-btn">Clear</button>
             </div>
         </div>
     </header>
