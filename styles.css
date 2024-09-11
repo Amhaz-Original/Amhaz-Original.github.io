@@ -329,17 +329,31 @@ body {
     min-height: 100vh;
 }
 
+/* Ensure body and html can scroll */
+html, body {
+    height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
 /* Moving background with seamless repeating effect */
 .moving-background {
-    position: fixed; /* Stay in place even when scrolling */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 200%; /* Make the background wider than the screen */
+    width: 200%;
     height: 100%;
-    background: url('img/techBG.png') repeat-x;
+    background: url('img/tech_background.jpg') repeat-x;
     background-size: cover;
-    animation: scrollBackground 100s linear infinite; /* Infinite scroll */
-    z-index: -1; /* Ensure it stays behind the content. */
+    animation: scrollBackground 60s linear infinite;
+    z-index: -1; /* Ensure it stays behind the content */
+}
+
+/* Main content */
+main {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px; /* Extra space at the bottom for better scrolling */
 }
 
 /* Keyframe for continuously moving the background */
@@ -348,12 +362,6 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%); /* Move half the width for smooth transition */
+        transform: translateX(-50%);
     }
-}
-
-/* Ensure main content is on top */
-main {
-    position: relative;
-    z-index: 1; /* Ensure content appears above background */
 }
