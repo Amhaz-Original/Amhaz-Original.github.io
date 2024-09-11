@@ -1,7 +1,8 @@
 # Product Showcase Website (Fan Made)
 
 **Disclaimer:**
-This website is a fan-made project and is not affiliated with, endorsed by, or in any way associated with **Amhaz Original**. It is created purely for educational purposes, showcasing web development techniques and product listing functionality.
+This website is a fan-made project and is not affiliated with, endorsed by, or in any way associated with **Amhaz Original**. It is created purely for educational purposes, showcasing web development techniques and product listing functionality. 
+The data is **NOT** 100% accurate because it's based on OCR tools to extract them from the image Amhaz Original are posting to there social medias account
 
 ## Project Overview
 

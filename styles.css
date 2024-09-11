@@ -322,3 +322,22 @@ footer span {
     height: auto;
 }
 
+/* Moving background with fading effect */
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/tech_background.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation: moveBackground 30s linear infinite, fadeBackground 6s ease-in-out infinite alternate;
+}
+
+/* Keyframe for moving background */
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 1000px 0; }
+}
+
+/* Keyframe for fading background */
+@keyframes fadeBackground {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
