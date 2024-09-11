@@ -322,22 +322,38 @@ footer span {
     height: auto;
 }
 
-/* Moving background with fading effect */
+/* Wrapper for the moving background */
 body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/tech_background.png');
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+/* Moving background with seamless repeating effect */
+.moving-background {
+    position: fixed; /* Stay in place even when scrolling */
+    top: 0;
+    left: 0;
+    width: 200%; /* Make the background wider than the screen */
+    height: 100%;
+    background: url('img/techBG.png') repeat-x;
     background-size: cover;
-    background-position: 0 0;
-    animation: moveBackground 30s linear infinite, fadeBackground 6s ease-in-out infinite alternate;
+    animation: scrollBackground 100s linear infinite; /* Infinite scroll */
+    z-index: -1; /* Ensure it stays behind the content */
 }
 
-/* Keyframe for moving background */
-@keyframes moveBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: 1000px 0; }
+/* Keyframe for continuously moving the background */
+@keyframes scrollBackground {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Move half the width for smooth transition */
+    }
 }
 
-/* Keyframe for fading background */
-@keyframes fadeBackground {
-    0% { opacity: 0.8; }
-    100% { opacity: 1; }
+/* Ensure main content is on top */
+main {
+    position: relative;
+    z-index: 1; /* Ensure content appears above background */
 }
