@@ -29,7 +29,7 @@ function displayProducts(productsToDisplay) {
 
 // Fetch product data from the appropriate JSON file
 function fetchProducts(category, searchQuery) {
-    let jsonFile = category === 'new' ? 'New Products.json' : 'Open Box.json';
+    let jsonFile = category === 'new' ? 'data/New Products.json' : 'data/Open Box.json';
 
     fetch(jsonFile)
         .then(response => response.json())
