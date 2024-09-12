@@ -19,15 +19,44 @@ body {
     min-height: 100vh;
 }
 
+/* Adjusted header for menu and alignment */
 header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between; /* Pushes logo to the left and nav to the right */
+    align-items: center; /* Aligns items vertically */
     width: 100%;
     background-color: #1c1c1c;
-    padding: 20px 0;
+    padding: 10px 20px; /* Adjusted padding to remove gap */
     z-index: 10;
+}
+
+nav {
+    margin-right: 20px; /* Fine-tune the position to the right */
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #444;
 }
 
 #search-container {
@@ -190,7 +219,6 @@ footer h3 {
     transform: scale(1.1);
 }
 
-
 footer a {
     color: #ff4c4c;
     text-decoration: none;
@@ -211,73 +239,64 @@ footer span {
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
-
-    /* Hide the logo on mobile */
     #logo-container {
         display: none;
     }
 
-    /* Search bar should take full width */
     #search-bar {
         width: 100%;
         padding: 10px;
     }
 
-    /* Use flex to place the category select and search button side by side */
     .search-controls {
         display: flex;
-        flex-direction: column; /* Stack the elements vertically */
+        flex-direction: column;
         gap: 10px;
         width: 100%;
-        padding: 10px; /* Add some padding around the controls */
+        padding: 10px;
     }
 
-    /* Flex container to hold category select and search button side by side */
     .button-row {
         display: flex;
         justify-content: space-between;
-        width: 100%; /* Full width for the container */
+        width: 100%;
     }
 
-    /* Category select styling */
     #category-select {
-        width: 48%; /* 48% to make space for the search button next to it */
+        width: 48%;
         padding: 10px;
     }
 
-    /* Search button styling */
     #search-btn {
-        width: 48%; /* 48% to align with the category select button */
+        width: 48%;
         padding: 10px;
     }
 
-    .social-icon{
-    display: none;
+    .social-icon {
+        display: none;
     }
 
-    /* Adjust clear button if necessary */
     #clear-btn {
         width: 100%;
         padding: 10px;
         margin-top: 10px;
     }
 
-    /* Adjust product list for mobile view */
     .product-item {
         width: 90%;
         margin: 10px 0;
     }
 
-    /* Footer adjustments for mobile */
     footer .footer-info {
         flex-direction: auto;
         align-items: left;
         width: auto;
         font-size: 0.55rem;
     }
+
     footer h3 {
-    font-size: 0.83rem;
-    margin-bottom: 1px;
+        font-size: 0.83rem;
+        margin-bottom: 1px;
     }
 
     footer a {
@@ -286,16 +305,15 @@ footer span {
         font-size: 0.55rem;
     }
 
-        footer p {
+    footer p {
         text-decoration: none;
         font-size: 0.55rem;
     }
 
-    footer span{
+    footer span {
         font-weight: bold;
         font-size: 0.55rem;
     }
-
 }
 
 /* Tablet Styles */
@@ -329,14 +347,12 @@ body {
     min-height: 100vh;
 }
 
-/* Ensure body and html can scroll */
 html, body {
     height: 100%;
     overflow: auto;
     position: relative;
 }
 
-/* Moving background with seamless repeating effect */
 .moving-background {
     position: fixed;
     top: 0;
@@ -346,17 +362,15 @@ html, body {
     background: url('img/techBG.png') repeat-x;
     background-size: cover;
     animation: scrollBackground 60s linear infinite;
-    z-index: -1; /* Ensure it stays behind the content */
+    z-index: -1;
 }
 
-/* Main content */
 main {
     position: relative;
     z-index: 1;
-    padding-bottom: 50px; /* Extra space at the bottom for better scrolling */
+    padding-bottom: 50px;
 }
 
-/* Keyframe for continuously moving the background */
 @keyframes scrollBackground {
     0% {
         transform: translateX(0);
@@ -364,4 +378,4 @@ main {
     100% {
         transform: translateX(-50%);
     }
-}
+}}
